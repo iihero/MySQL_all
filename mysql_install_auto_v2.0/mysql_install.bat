@@ -19,6 +19,7 @@ set mysql_dir=""
 
 if "[%fullversion%]" == "[]" goto HELP
 if not "[%fullversion%]" == "[]" goto TOINSTALL
+
 :HELP
     echo mysql_install.bat ^<fullversion^> [arch] [ROOTDIR] [server_port]
     echo valid ^<fullversion^> £º4.1.22, 5.1.xx, 5.5.xx, e.g. 5.1.72, 5.6.14, 5.7.37, 6.0.11-alpha, 8.0.28 etc.

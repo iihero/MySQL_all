@@ -2,6 +2,7 @@
 echo "This is a demo script for auto installation of noninstall version of MySQL on Windows.  "
 echo "Copyright: iihero, when you distribute it, please copy this section above the head."
 echo "================================iihero.com====================================="
+
 set MYSQL_HOME=%~dp0
 echo MYSQL_HOME=%MYSQL_HOME%
 del /F my.ini

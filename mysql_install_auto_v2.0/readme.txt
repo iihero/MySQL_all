@@ -22,6 +22,11 @@ mysql_install.bat <fullversion> [arch] [ROOTDIR] [server_port]
 如果你想卸载，也非常简单，先用sc delete mysql-<主版本号>
 接着进到%ROOTDIR%\%MYSQL_HOME%, 直接删除整个目录就可以了. 非常方便。
 
+可能出现的问题：就是git将提交上去的文件都转换成unix格式了。
+下下来以后，你需要将几个文件文件都unix2dos转换成dos格式。
+对git进行如下设置也应该可以:
+git config core.autocrlf true
+
 使用时，也请尊重个人劳动。注明出处。
 
 有什么问题，欢迎联系：
